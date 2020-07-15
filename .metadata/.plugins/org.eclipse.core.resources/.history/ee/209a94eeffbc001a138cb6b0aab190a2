@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+    
+	<tr bgcolor="gray">
+			<td><a href = "/web05/index.jsp" style = "color:white;" width = "20">[HOME]</a></td>
+			<td><a href = "/web05/emp/list.jsp" style = "color:white;" width = "20">[E M P]</a></td>
+			<td><a href = "/web05/dept/list.jsp" style = "color:white;" width = "20">[DEPT]</a></td>
+			<td><a href = "/web05/login/form.jsp" style = "color:white;" width = "20">[LOGIN]</a></td>
+	</tr>
+	<tr>
+		<td>
+			<!-- content start -->

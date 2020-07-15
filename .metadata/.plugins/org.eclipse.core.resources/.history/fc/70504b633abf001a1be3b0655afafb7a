@@ -1,0 +1,10 @@
+package com.bit.emp.dto;
+
+import java.sql.Date;
+
+public class Emp02Bean {
+	int sabun;
+	String name;
+	Date nalja;
+	int pay;
+}

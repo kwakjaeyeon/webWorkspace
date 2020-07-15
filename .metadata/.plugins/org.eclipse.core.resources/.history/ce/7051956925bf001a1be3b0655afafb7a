@@ -1,0 +1,32 @@
+package com.bit.emp;
+
+import java.sql.*;
+
+public class Oracle {
+	// database 접속해줄 메소드
+	Connection conn;
+	
+	Connection getConnection() {
+		String driver = "oracle.jdbc.driver.OracleDriver";
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
+		String user = "scott";
+		String password = "tiger";
+		
+		try {
+			Class.forName(driver);
+			conn = DriverManager.getConnection(url, user, password);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		return conn;
+	}
+	
+	
+	public static void main(String[] args) {
+		Oracle me = new Oracle();
+		System.out.println(me.getConnection() != null);
+	}
+
+}

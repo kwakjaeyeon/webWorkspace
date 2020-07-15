@@ -1,0 +1,17 @@
+package com.bit.emp;
+
+public class Emp02Detail {
+
+	public static void main(String[] args) {
+		
+		public void detail(int sabun) {
+			String sql = "{call emp02deatil(" + sabun + ",?)}";
+		}
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
