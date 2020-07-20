@@ -41,6 +41,7 @@
     function loop(){
         var first=ul.firstElementChild;
         ul.appendChild(first);
+        setTimeout(loop, 3000);
     }
     setTimeout(loop, 3000);
     
